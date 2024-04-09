@@ -1,0 +1,22 @@
+Information gathering, or data collection, is a process where you follow a series of steps to conduct research and answer questions or resolve problems you have.
+
+Steps:- #1Identify ip address
+        #2Begin a nmap scan with the sV,sC and O arguments and save it using oX in a xml format so that you can import it in msfconsole
+        #3 Enumerate open services found using Nmap
+        #4 Enumerate information regarding vulnerable services and groups,usernames,web servers,wampp servers
+
+#1) IDENTIFY IP ADDRESS:-
+
+-->*Can be given in the target file
+-->*Can be the next ip address of your current ip address
+-->* cat /etc/host is the command to show all the host on the device
+
+
+#2) NMAP SCAN:-
+               Use argumets:-
+                             -sV=Service detection
+                             -sC=Basic nmap script 
+                             -O= OS detection
+                             -oX= output into an xml file
+                             -T1,2,3,4,5=speed of the scan
+                             -Pn=Begin scan without pinging the host
