@@ -20,3 +20,6 @@ Steps:- #1Identify ip address
                              -oX= output into an xml file
                              -T1,2,3,4,5=speed of the scan
                              -Pn=Begin scan without pinging the host
+
+#3) Open ports:-
+
